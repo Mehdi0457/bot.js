@@ -1,3 +1,4 @@
+const client = new Discord.Client();
 client.on('message', vipgen => {
     if (vipgen.content == "§gr vip") {  
         var x = ["321464578",
